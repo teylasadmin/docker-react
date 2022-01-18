@@ -6,4 +6,4 @@ before_install:
   - docker build -t digitalbrick/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run digitalbrick/docker-react npm run test -- --coverage
+  - docker run digitalbrick/docker-react npm run test -- --watchAll=false --coverage
