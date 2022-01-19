@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Deployment works fine ! 
+         Deployment to a new environment works fine ! 
 	</p>
         <a
           className="App-link"
